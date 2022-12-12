@@ -1,0 +1,39 @@
+.avrora-alert {
+    font-weight: $alt-font-weight;
+    line-height: $alt-line-height;
+    color: $white;
+    padding:$alt-padding-y $alt-padding-x;
+    font-size: $alt-font-size;
+    border-radius: $border-radius;
+    vertical-align: middle;
+    background-image: none;
+    border: $alt-border-width solid transparent;
+
+    p{
+        margin-bottom: 0;
+    }
+}
+
+.alt-success {
+    @include alert-style($success, $success, $white)
+}
+
+.alt-danger {
+    @include alert-style($danger, $danger, $white)
+}
+
+.alt-default {
+    @include alert-style($primary, $primary, $white)
+}
+
+.alt-warning {
+    @include alert-style($warning, $warning, $white)
+}
+
+.alt-closeable{
+    display: flex;
+    justify-content: space-between;
+    .alt-closeBtn{
+        cursor: pointer;
+    }
+}

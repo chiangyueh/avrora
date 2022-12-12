@@ -1,7 +1,5 @@
-import React from "react";
 import { render, fireEvent } from '@testing-library/react';
 import Button, {ButtonProps, ButtonSize, ButtonType} from "./button";
-import { isJSDocEnumTag } from "typescript";
 const defaultProps = {
     onClick : jest.fn()
 }
@@ -17,7 +15,7 @@ const disabledProps : ButtonProps = {
     onClick : jest.fn()
 }
 
-describe('test Button component', () => {
+describe('Test Button component', () => {
     it('should render the correct default button', () => {
         const wrapper = render(<Button {...defaultProps}>Nice</Button>);
         const element = wrapper.getByText('Nice') as HTMLButtonElement;

@@ -176,6 +176,8 @@ $box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
 $box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
 
+
+//-------------------------------------------------------------------------------
 // 按鈕
 // 按鈕基本屬性
 $btn-font-weight:             400;
@@ -206,13 +208,32 @@ $btn-link-color:              $link-color !default;
 $btn-link-hover-color:        $link-hover-color !default;
 $btn-link-disabled-color:     $gray-600 !default;
 
-
 // 按鈕 radius
 $btn-border-radius:           $border-radius !default;
 $btn-border-radius-lg:        $border-radius-lg !default;
 $btn-border-radius-sm:        $border-radius-sm !default;
 
 $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+//-------------------------------------------------------------------------------
+//Alert
+//Alert基本屬性
+$alt-font-weight:             400;
+$alt-padding-y :    0rem !default;
+$alt-padding-x :    .75rem !default;
+$alt-font-family:             $font-family-base !default;
+$alt-font-size:               $font-size-base !default;
+$alt-line-height:             $line-height-base !default;
+
+//Alert邊框
+$alt-border-width : $border-width !default;
+
+
+
+
+
+
+
+
 
 // menu
 $menu-border-width:            $border-width !default;
